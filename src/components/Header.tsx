@@ -34,11 +34,13 @@ export default function Header() {
   return (
     <>
       <header class="px-4 py-2 sticky top-0 z-99 flex justify-between items-center">
+        
+          <Show>
             <span class="ml-1 font-extrabold text-slate-7 dark:text-slate">
               {iconTitle().title}
             </span>
           </Show>
-        </div>
+        
         <ThemeToggle />
       </header>
     </>
