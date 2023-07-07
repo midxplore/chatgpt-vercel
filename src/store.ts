@@ -62,8 +62,8 @@ const models = {
     "16k": "gpt-3.5-turbo-16k-0613"
   },
   "gpt-4": {
-    "8k": "gpt-4-0613",
-    "32k": "gpt-4-32k-0613"
+    "8k": "gpt-4",
+    "32k": "gpt-4-32k"
   }
 } satisfies {
   [k in SimpleModel]: {
@@ -80,11 +80,11 @@ const modelFee = {
     input: 0.003,
     output: 0.004
   },
-  "gpt-4-0613": {
+  "gpt-4": {
     input: 0.03,
     output: 0.06
   },
-  "gpt-4-32k-0613": {
+  "gpt-4-32k": {
     input: 0.06,
     output: 0.12
   }
